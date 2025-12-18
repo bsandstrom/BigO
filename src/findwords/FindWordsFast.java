@@ -31,6 +31,7 @@ public class FindWordsFast {
 			
 			String[] lineWords = line.split(" ");
 			
+			// Test comment
 			for(String s : lineWords){
 				//if words contains s
 				if(words.containsKey(s)){
